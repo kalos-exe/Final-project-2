@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="15.76" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="15.76" skipped="0" timestamp="01-03-2024T06:40:51" hostname="luki - DESKTOP-ILNNTN6.mshome.net" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\luki\\Katalon Studio\\Final Project 2\\Reports\\20240301_064031\\TestSuite1\\20240301_064031"/>
+         <property name="logFiles" value="C:\\Users\\luki\\Katalon Studio\\Final Project 2\\Reports\\20240301_064031\\TestSuite1\\20240301_064031\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="luki - DESKTOP-ILNNTN6.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="172.27.192.1"/>
+         <property name="sessionId" value="ab4ad6815dd7e0f89f8f52482ab11f74"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test case utama" time="15.15" classname="Test Cases/Test case utama" status="PASSED">
+         <system-out><![CDATA[01-03-2024T06:40:51 - [TEST_CASE][PASSED] - Test Cases/Test case utama: Test Cases/Test case utama
+
+01-03-2024T06:40:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T06:40:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-03-2024T06:40:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T06:40:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T06:40:59 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.applitools.com/"): Navigate to 'https://demo.applitools.com/' successfully
+
+01-03-2024T06:40:59 - [MESSAGE][PASSED] - Navigate to 'https://demo.applitools.com/' successfully
+
+01-03-2024T06:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page-login/input_Username_username"), "iniusername"): Text 'iniusername' is set on object 'Object Repository/page-login/input_Username_username'
+
+01-03-2024T06:41:02 - [MESSAGE][PASSED] - Text 'iniusername' is set on object 'Object Repository/page-login/input_Username_username'
+
+01-03-2024T06:41:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/page-login/input_Password_password"), "inipassword"): Text 'inipassword' is set on object 'Object Repository/page-login/input_Password_password'
+
+01-03-2024T06:41:03 - [MESSAGE][PASSED] - Text 'inipassword' is set on object 'Object Repository/page-login/input_Password_password'
+
+01-03-2024T06:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/page-login/a_Sign in")): Object: 'Object Repository/page-login/a_Sign in' is clicked on
+
+01-03-2024T06:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/page-login/a_Sign in' is clicked on
+
+01-03-2024T06:41:04 - [TEST_STEP][PASSED] - if (verifyElementVisible(findTestObject("Object Repository/page-login/a_Add Account")) && verifyElementVisible(findTestObject("Object Repository/page-login/a_Make Payment")) && verifyElementVisible(findTestObject("Object Repository/page-login/h6_Financial Overview")) && verifyElementVisible(findTestObject("Object Repository/page-login/h6_Recent Transactions"))): null
+
+01-03-2024T06:41:05 - [MESSAGE][PASSED] - Object 'Object Repository/page-login/a_Add Account' is visible
+
+01-03-2024T06:41:05 - [MESSAGE][PASSED] - Object 'Object Repository/page-login/a_Make Payment' is visible
+
+01-03-2024T06:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/page-login/h6_Financial Overview' is visible
+
+01-03-2024T06:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/page-login/h6_Recent Transactions' is visible
+
+01-03-2024T06:41:06 - [TEST_STEP][PASSED] - println("Login Berhasil"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T06:40:51 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null]]></system-out>
+      <system-err><![CDATA[01-03-2024T06:40:51 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null]]></system-err>
+   </testsuite>
+</testsuites>
